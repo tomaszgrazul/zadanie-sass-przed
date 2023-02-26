@@ -167,7 +167,8 @@
     }
 
     #counters-services {
-    background-color: $color-background;
+    // background-color: $color-background;
+    background-color: $myColor;
     padding: ($baseline * 4) $padding-none $baseline;
 
         .icon-services {
