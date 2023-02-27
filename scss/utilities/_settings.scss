@@ -11,8 +11,9 @@
 //    Typography 
 // -------------------
 	$base-font-size: 16px;
-	$font-primary: "Lato Regular", Helvetica, sans-serif;
+	// $font-primary: "Lato Regular", Helvetica, sans-serif;
 	// $font-secondary: "Lato Bold", Helvetica, sans-serif;
+	$font-primary: "Raleway", sans-serif;
 	$font-secondary: "Archivo Black", sans-serif;
 	$text-transform-base: uppercase;
 	$baseline: $base-font-size * 1.5;
@@ -59,7 +60,8 @@
 // -------------------
 //       Buttons 
 // -------------------
-	$color-btn-primary-bg: $color-primary;
+	// $color-btn-primary-bg: $color-primary;
+	$color-btn-primary-bg: $myColor;
 	$color-btn-primary-text: $color-text-primary;
 	$color-btn-primary-bg-hover: $color-primary-darker;
 

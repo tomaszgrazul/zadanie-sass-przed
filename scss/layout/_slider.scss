@@ -52,7 +52,10 @@
 		}
 
 		h1 {
-			font-size: $base-font-size + 32;
+			// font-size: $base-font-size + 32;
+			font-size: 38px;
+			letter-spacing: 4px;
+			text-transform: uppercase;
 			margin-top: $baseline;
 			margin-bottom: $baseline;
 		}
@@ -60,11 +63,14 @@
 		p {
 			font-size: $base-font-size + 4;
 			margin-bottom: $baseline;
+			text-transform: uppercase;
 		}
 
 		.btn-primary {
-			margin-top: $baseline * 2;
-			font-size: $base-font-size - 2;
+			// margin-top: $baseline * 2;
+			margin-top: $baseline * 3;
+			// font-size: $base-font-size - 2;
+			font-size: 22px;
 			padding: 10px 12px;
 		}
 	}

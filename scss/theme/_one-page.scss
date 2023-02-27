@@ -13,15 +13,20 @@
 
         .about-box {
             margin: ($baseline * 3) auto $margin-none;
-
+            
             p {
                 margin-bottom: $margin-none;
             }
 
             .icon-about {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 color: $color-text-primary;
-                width: $base-font-size * 4.5;
-                height: $base-font-size * 4.5;
+                // width: $base-font-size * 4.5;
+                // height: $base-font-size * 4.5;
+                width: 96px;
+                height: 96px;
                 border-radius: 100%;
                 line-height: $base-font-size * 4.5;
                 background-color: $color-primary;
@@ -139,7 +144,8 @@
                 background: $color-portfolio-hover;
                 -webkit-transition: all .35s;
                 -moz-transition: all .35s;
-                transition: all .35s;
+                // transition: all .35s;
+                transition: all 1s;
 
                 .portfolio-box-caption-content {
                     position: absolute;
@@ -180,6 +186,11 @@
             border: 2px solid $color-primary;
         }
 
+        .icon-services:hover {
+            color: red;
+            transform: rotate(-45deg);
+            transition: all 0.5s;
+        }
 
         .counters-box {
             margin: $margin-none auto ($baseline * 3);
@@ -189,7 +200,8 @@
             }
 
             .divider-light-dark {
-                width: $baseline * 2;
+                // width: $baseline * 2;
+                width: 25px;
                 margin-left: $padding-none;
                 margin-bottom: 20px;
             }
